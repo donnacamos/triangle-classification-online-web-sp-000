@@ -7,7 +7,7 @@ class Triangle
     end 
     
     def kind() 
-      if (@side_1 <= )
+      if (@side_1 <= 0) || (@side_2 <= 1) || (@side_3 <= 2) 
 
 class TriangleError < StandardError  
 
