@@ -20,4 +20,5 @@ def valid?
   end 
 end 
 
-
+def kind 
+  
