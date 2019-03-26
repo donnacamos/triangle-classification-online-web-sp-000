@@ -21,4 +21,5 @@ def valid?
 end 
 
 def kind 
-  
+  if valid? 
+    
