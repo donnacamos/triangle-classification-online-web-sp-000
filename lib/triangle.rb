@@ -22,4 +22,4 @@ end
 
 def kind 
   if valid? 
-    
+    if @triangle_sides 
