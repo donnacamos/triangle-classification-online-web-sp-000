@@ -35,5 +35,5 @@ def kind
 end 
 end 
 
-class TriangleError < StandardError 
+class RangeError < StandardError 
 end 
