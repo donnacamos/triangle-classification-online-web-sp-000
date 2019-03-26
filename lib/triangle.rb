@@ -28,3 +28,6 @@ def kind
       return :isosceles 
     else 
       return :scalene 
+    end 
+  else 
+    return 
