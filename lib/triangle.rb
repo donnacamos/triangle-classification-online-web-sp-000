@@ -30,11 +30,11 @@ class Triangle
         return :scalene
       end
     else
-      raise TriangleError
+      raise RangeError
     end
   end
 end
 
-class TriangleError < StandardError
+class RangeError < StandardError 
 
 end
