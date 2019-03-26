@@ -26,4 +26,5 @@ def kind
       return :equilateral 
   elsif @triangle_sides.uniq.length == 2 
       return :isosceles 
-      
+    else 
+      return :scalene 
