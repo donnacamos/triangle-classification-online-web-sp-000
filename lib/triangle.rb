@@ -6,3 +6,6 @@ class Triangle
     @triangle_sides << side_2 
     @triangle_sides << side_3 
 end
+
+def valid? 
+  
