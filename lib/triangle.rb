@@ -30,4 +30,5 @@ def kind
       return :scalene 
     end 
   else 
-    return 
+    raise TriangleError 
+    
