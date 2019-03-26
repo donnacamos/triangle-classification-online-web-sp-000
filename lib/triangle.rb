@@ -31,4 +31,7 @@ def kind
     end 
   else 
     raise TriangleError 
-    
+  end 
+end 
+end 
+
